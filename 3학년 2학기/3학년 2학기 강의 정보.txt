@@ -1,0 +1,11 @@
+1. 전기전자회로 (Electrial and Electronics Circuit)
+
+배울 내용 : Foundations of Analog and Digital Electronic Circuits
+
+성적 계산 : 3시험 각 30% + 출석 10%
+
+수업 자료 : etl 참조
+
+이메일 : sha@snu.ac.kr
+
+홈페이지 : http://peace.snu.ac.kr/sha
