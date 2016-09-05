@@ -31,3 +31,18 @@
 	높은 화학, 생물 지식 수준을 요구하지는 않아요! (과연?)
 
 강의 순서 : 의료 & 바이오 -> 에너지 & 환경 -> 농업 -> 적정기술 -> 술 -> 기업의 변화
+
+
+4. 컴퓨터구조 (Computer Structure)
+
+교수님 성함 : 민상렬
+
+이메일 : symin@snu.ac.kr
+
+홈페이지 : http://archi.snu.ac.kr/symin
+
+교재 : Computer Systems: A Programmer's Perspective (3rd Edition)
+
+비고 : 웹페이지에 강의 슬라이드가 올라와 있음 (교과서 업데이트에 따라 내용도 바뀔 예정)
+
+
