@@ -1,0 +1,59 @@
+-OT-
+
+이 수업에서 기대하기 힘든 것
+
+-instruction set을 만든다?
+
+installed base	- 데스크탑 시장은 포화
+
+		- 모바일도 임베디드 시스템의 development platform이 고착 (debugger, in-curuit emulation)
+
+--------------------------------
+
+왜 인텔은 컴퓨터를 만들지 않는가?
+
+PCB보드나 이더넷 인터페이스는 만들었다
+
+AMD의 경우 IP를 묶어서 칩을 판매할 수 있게 한다
+
+하지만 직접 칩을 만든 적은 X
+
+-> 생태계를 만들게 하더라도 직접 제품은 만들지 않는다
+
+instruction set은 만들지 않는다!
+
+--------------------------------
+
+Course Goal
+
+인터페이스에 대한 이해
+
+	-ISA(Interface Set Architecture)
+
+공학적 방법론 / 정확도 평가 / 트렌드
+
+--------------------------------
+
+ISA as an ADT
+
+ISA를 state와 state를 변경시키는 operation으로 설명
+
+--------------------------------
+
+instruction list
+
+add r1, r2, r3 : r2 + r3을 r1에 저장
+
+lw r2, 1(r0) : r0 + 1 번지의 값에 r2값을 저장 (load word)
+
+sw r3, 0(r0) : r3에 r0 + 0 번지의 값을 가져옴 (store word)
+
+beq r0, r1, 2 : r0 == r1 이면 2로 이동, 아닐 시 다음 시퀀스로 이동 (branch if equal)
+
+j 15 : jump to 15
+
+--------------------------------
+
+다음 수업
+
+Design Techniques
