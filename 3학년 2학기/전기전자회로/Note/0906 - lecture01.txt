@@ -1,0 +1,66 @@
+이 수업에서 중요한 '수치'는 '전류'와 '전압'
+
+Lumped Circuit Abstraction Assumption에서 Electric Element의 내부 구조에 대해 알 필요는 없다!
+
+-> V와 I의 관계만 제대로 이해하고 있으면 충분합니다!
+
+<-> Distributed Analysis에서는 내부 구조도 자세히 알아야겠지만 이 수업에서는 다루지 않는다.
+
+------------------------------------------------
+
+Semiconductor란? 
+
+-conductivity를 조절할 수 있는 물질
+
+uniy of charge : C (Coulomb)
+
+charge of an electron : 1.6 * 10^(-19) C
+
+Voltage란 위치에너지의 차이
+
+-> Joule / Coulomb
+
+전자의 속도 = 빛의 속도? (X)
+
+전류의 전달속도 = 빛의 속도! 
+
+-------------------------------------------------
+
+slide 12
+
+P = W/t = W/Q * Q/t = V*I
+
+Power consumed by the battery가 음의 값을 갖는 이유: battery가 에너지를 만들어내기 때문에 부호가 반대!
+
+slide 13
+
+부호를 어떻게 잡는가?
+
+*전류 방향 설정은 마음대로 해도 된다!
+
+-> 전류의 방향과 +극 -> -극의 방향이 같으면 +, 반대이면 -이다!
+<=> Voltage와 Current의 방향이 같으면 +, 반대이면 -이다!
+
+slide 14
+
+P(Load1) = 8*0.1 = 0.8W
+P(Load2) = 4*0.1 = 0.4W
+P(vB) = 12*(-0.1) = -1.2W (전류와 전압의 방향이 반대!)
+
+---------------------------------------------------
+
+slide 15
+
+Resistor에서 i나 v는 서로에 대한 함수로 표현 가능!
+
+I = f(V), V = g(I)
+
+예를 들어,
+
+Voltage source에서는 V = c(상수), Current source에서는 I = c(상수)로 표현!
+
+slide 16
+
+Ohm's resistor에서는 V = IR인 것 (linear resistor)
+
+Conductance (unit: Ω 상하반전 마크..?, mho) = 1 / Resistance (Ω)
