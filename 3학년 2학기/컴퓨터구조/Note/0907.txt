@@ -1,0 +1,41 @@
+lecture02
+
+temporal locality - 어떤 주소의 메모리가 참조되면 이후에 그 주소의 메모리가 참조될 확률이 높다
+ex - loop의 condition 변수
+
+spatial locality - 어떤 주소의 메모리가 참조되면 그 주변 주소의 메모리가 참조될 확률이 높다
+
+
+SRAM과 DRAM의 trade-off
+
+----------------------------------------
+
+slide 22
+
+client의 입장에서는 time이 중요하다!
+
+server의 입장에서는 rate가 중요하다!
+
+----------------------------------------
+
+slide 24
+
+technology trend
+
+Transistors per Die trend는 지수적으로 증가!
+
+현대에는 전자 수 백개로 1과 0을 구분할 수 있다
+
+But...
+
+-> 기술 발전의 끝이 다가오고 있다
+
+& -> Reliability가 크게 떨어진다
+
+slide 25
+
+Processor Performance Trends
+
+log scale로 증가하고 있지만 감소세...?
+
+-> 다른 분야와의 융합도 미래엔 진지하게 생각하세용...
