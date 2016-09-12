@@ -1,0 +1,40 @@
+slide 01
+
+Kirchhoff's Laws
+
+회로 문제를 푸는 데 쓰이는 기본적인 법칙
+
+-> 더 빠른 방법들이 존재하지만 일단은 요거부터...!
+
+--------------------------------------------------------
+
+slide 02
+
+KCL (키르히호프의 전류 법칙)
+
+node 하나로 들어오는 전류의 합은 0
+
+--------------------------------------------------------
+
+slide 05
+
+KCL equation에서 G로 출입하는 전류: i1(out), i3(in), i4(out)
+
+equation: -i1 + i3 - i4 = 0
+
+# of independent KCL equation == # of node - 1
+
+모든 KCL equation을 더하면 0이 된다!
+
+--------------------------------------------------------
+
+slide 06
+
+KVL(키르히호프의 전압 법칙)
+
+폐구간 내의 전압의 합은 0
+
+아래 식처럼 node voltage와 reference voltage를 이용해 V(ba)를 정의할 수 있다
+
+# of KVL equations on a circuit == # of mashes
+

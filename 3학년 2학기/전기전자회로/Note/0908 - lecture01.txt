@@ -1,0 +1,73 @@
+slide 17
+
+Diode: Non-linear resistor
+
+characteristic equation: i = I0(e^(v/Vt) - 1) (뭔솔?)
+
+slide 18
+
+Open circuit: 끊김 
+
+i-v characteristic : i = 0
+
+v-i graph: x축
+
+Shrot circuit: 전선 (전위차 x)
+
+i-v characteristic: v = 0
+
+v-i graph: y축
+
+다시 slide 17로 돌아가서 simplified form을 보면
+
+v < 0일때: i = 0 (단선)
+
+v > 0일때: v = 0 (전선)
+
+즉, 전류가 정방향으로 흘러야먄 전류가 흐르는 모습임을 알 수 있다.
+
+-------------------------------------------------------------------
+
+slide 19
+
+Practical Voltage Source
+
+전지 내에도 저항이 존재하므로 lump sum 저항 계산은 전지 내 저항을 (직렬로) 더해야 한다
+
+실제 회로에 흐를 수 있는 최대 전류 == 회로에 다른 저항이 없을 때 전류 == vs/rs(내부 저항)
+
+slide 20
+
+실제 전류 모델에 저항이 병렬로 연결된 이유? 직렬로 연결하면 open circuit일때 논리적 오류 발생
+
+-------------------------------------------------------------------
+
+slide 24 & 25
+
+Circuit Topology
+
+Branch - Electrical Element
+
+Node - Cricuit Element를 연결하는 부위
+
+Ground - Reference Node(V = 0인 부분) 
+
+-------------------------------------------------------------------
+
+slide 26
+
+Node의 개수를 세는 방법: 전선만으로 이루어지는 영역으로 회로를 덮는 최소 개수!
+
+Loop: 전류가 돌 수 있는 폐쇄구간
+
+Mesh: 내부에 Loop를 포함하지 않는 Loop
+
+회로를 다룰 때는 Mesh에 더 주목!
+
+-------------------------------------------------------------------
+
+slide 27
+
+'edge' stands for branch (branch is more accurate expression)
+
+회로를 아래 그림처럼 simplify라면 결국 edge의 개수 = branch의 개수가 된다!
